@@ -1,0 +1,15 @@
+.App {
+}
+
+
+body {
+    margin-top:60px;
+    min-width: 1000px;
+    max-width: 6000px;
+    background: #808080;
+    background-repeat: no-repeat;
+}
+
+    body::-webkit-scrollbar {
+        display: none;
+    }
