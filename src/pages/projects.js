@@ -8,6 +8,11 @@ function Races() {
         <div className="page-container races-page">
 
 
+
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+
+
             <div class="teamPic-container">
                 <img src={calebImage} alt="" className="teamPic" />
 
@@ -34,7 +39,7 @@ function Races() {
                                 <tr>
                                     <td>Personal Website</td>
                                     <td>Website built with React</td>
-                                    <td></td>
+                                    <td><a href="https://github.com/holland-cw3/cholland-website">Link</a></td>
 
                                 </tr>
                                 <tr>

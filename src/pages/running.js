@@ -7,6 +7,8 @@ function Races() {
     return (
         <div className="page-container races-page">
 
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
+
 
             <div class="teamPic-container">
                 <img src={calebImage} alt="" className="teamPic" />

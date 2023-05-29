@@ -111,6 +111,9 @@ p {
     .teamPic-container {
         width: 250vw;
     }
+    .teamPic{
+        width: 130vw;
+    }
 
     table.races {
         width: 200vw;

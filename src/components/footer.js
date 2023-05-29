@@ -6,6 +6,8 @@ import githubIco from '../images/github-mark-white.png';
 function Footer() {
     return (
         <div>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes"/>
+
             <footer id="footer">
                 <div className="inner">
 

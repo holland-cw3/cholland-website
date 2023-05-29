@@ -13,3 +13,15 @@ body {
     body::-webkit-scrollbar {
         display: none;
     }
+
+@media only screen and (max-width: 479px) {
+    .App {
+        width: 250vw;
+    }
+
+    .App-header{
+        width: 1000%;
+    }
+
+  
+}
