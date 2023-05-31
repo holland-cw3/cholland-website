@@ -20,7 +20,7 @@ function Races() {
 
                 <div className="container">
                     <p>
-                        Ever since I first ran a mile in 8th grade, I have home to fall in love with running. I eventually went on to become my high school's track and cross country captain, and qualified for states in 2021. I love to run all distances, from the 1600m all the way up to the Marathon!,
+                        Ever since I first ran a mile in 8th grade, I have home to fall in love with running. I eventually went on to become my high school's track and cross country captain, and qualified for states in 2021. I love to run all distances, from the 1600m all the way up to the Marathon!
                         My most notable race would be the Frederick Half Marathon, in which I ran 1:27:46 to place 2nd in the 19 under age group.
                     </p>
 
