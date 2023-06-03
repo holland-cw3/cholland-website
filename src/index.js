@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import calebImage from './images/Personal Photo - Copy.jpg';
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+    <React.StrictMode>
+        <link rel="icon" href={calebImage} type="image/jpg" />
     <App />
   </React.StrictMode>
 );
