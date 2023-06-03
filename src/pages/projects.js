@@ -38,13 +38,13 @@ function Races() {
                             <tbody>
                                 <tr>
                                     <td>Personal Website</td>
-                                    <td>Website built with React</td>
+                                    <td>Website built with React.js</td>
                                     <td><a href="https://github.com/holland-cw3/cholland-website">Link</a></td>
 
                                 </tr>
                                 <tr>
                                     <td>UMD Club Running Website</td>
-                                    <td>Built with react, deployed via Vercel</td>
+                                    <td>Built with React, deployed via Vercel</td>
                                     <td><a href="https://clubrunningumd.vercel.app/">Link</a></td>
 
                                 </tr>
@@ -55,9 +55,15 @@ function Races() {
 
                                 </tr>
                                 <tr>
+                                    <td>Strava Activity Description Update</td>
+                                    <td>Uses the Strava API to auto-update my most recent descriptions with funny captions.</td>
+                                    <td>N/A</td>
+
+                                </tr>
+                                <tr>
                                     <td>Network Based Video Game Controller</td>
                                     <td>Allows users to control their computer with their phone, built with Unity</td>
-                                    <td></td>
+                                    <td>N/A</td>
 
                                 </tr>
                                 <tr>

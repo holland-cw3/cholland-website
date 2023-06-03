@@ -1,11 +1,20 @@
 .App {
+    width: 100%;
+    max-width: 100%;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 
 
 body {
     margin-top:60px;
-    min-width: 1000px;
-    max-width: 6000px;
+    min-width: 100%;
+    max-width: 100%;
     background: #808080;
     background-repeat: no-repeat;
 }
@@ -15,11 +24,11 @@ body {
     }
 
 @media only screen and (max-width: 479px) {
-    .App {
-        width: 250vw;
-    }
 
-    
+    body {
+        margin-top: 60px;
+        background-repeat: no-repeat;
+    }
 
   
 }

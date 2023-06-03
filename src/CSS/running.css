@@ -1,6 +1,8 @@
 /* Races.css */
 body {
     margin-top: 30px;
+    min-width: 100%;
+    max-width: 100%;
 }
 
 /* Races page container */
@@ -108,15 +110,16 @@ p {
 
 /* Styles for small mobile devices (up to 479px) */
 @media only screen and (max-width: 479px) {
-    .teamPic-container {
-        width: 250vw;
-    }
-    .teamPic{
-        width: 130vw;
+    body {
+        margin-top: 60px;
+        font-size: 18px;
+        margin-bottom:100px;
     }
 
-    table.races {
-        width: 200vw;
-        margin-left: 40px;
+    .teamPic {
+        width: 90%;
+        
     }
+    
+    
 }
