@@ -1,11 +1,11 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import '../CSS/Header.css';
 import resumePDF from '../images/Resume - Caleb Holland.pdf';
 
-
 function Header() {
     const location = useLocation();
+    const [isActive, setIsActive] = useState(false);
 
     useEffect(() => {
         const listItems = document.querySelectorAll('.tabs li');
@@ -19,28 +19,45 @@ function Header() {
         }
     }, [location]);
 
+    const toggleMenu = () => {
+        setIsActive(!isActive);
+    };
 
     return (
         <div>
-            <header class="App-header">
-                <div class="tabs">
+            <header className="App-header">
+                <div className={`tabs ${isActive ? 'active' : ''}`}>
                     <ul>
-                        <li className="home no-highlight"><a href="/">CALEB HOLLAND</a></li>
-                        <li><a href="/digart">Art</a></li>
-                        <li><a href={resumePDF}>Resume</a></li>
-                        <li><a href="/running">Running</a></li>
-                        <li><a href="/projects">Projects</a></li>
+                        <li className="home no-highlight">
+                            <a href="/">CALEB HOLLAND</a>
+                        </li>
+                        <li className={`hamburger-menu ${isActive ? 'active' : ''}`} onClick={toggleMenu}>
+                            <span className="hamburger-icon" style={{ color: 'white' }}>
+                                &#9776;
+                            </span>
+                            <div className={`hamburger-content ${isActive ? 'active' : ''}`}>
+                                <ul>
+                                    <li><a href="/digart">Art</a></li>
+                                    <li><a href={resumePDF}>Resume</a></li>
+                                    <li><a href="/running">Running</a></li>
+                                    <li><a href="/projects">Projects</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <div className="header-right">
+                            <li><a href="/digart">Art</a></li>
+                            <li><a href={resumePDF}>Resume</a></li>
+                            <li><a href="/running">Running</a></li>
+                            <li><a href="/projects">Projects</a></li>
+                        </div>
                     </ul>
                 </div>
             </header>
 
             <nav id="nav">
-                <ul class="links" id="myMenus"></ul>
+                <ul className="links" id="myMenus"></ul>
             </nav>
         </div>
-
-
-
     );
 }
 
