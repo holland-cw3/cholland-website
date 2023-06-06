@@ -26,7 +26,7 @@ function Home() {
 						<ul className="contact">
 							<li>Phone: 240-429-8738</li>
 							<li>Email: Hollandcw3@gmail.com</li>
-							<li>Linkedin: <a href="https://www.linkedin.com/in/caleb-holland-0a1168211/">Caleb Holland</a></li>
+							<li>LinkedIn: <a href="https://www.linkedin.com/in/caleb-holland-0a1168211/">Caleb Holland</a></li>
 						</ul>
 					</p>
 
