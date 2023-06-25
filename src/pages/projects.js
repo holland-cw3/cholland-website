@@ -48,16 +48,11 @@ function Races() {
                                     <td><a href="https://clubrunningumd.vercel.app/">Link</a></td>
 
                                 </tr>
+                           
                                 <tr>
-                                    <td>Simple Interest Calculator</td>
-                                    <td>Designed a simple GUI using JavaFX, calculates simple and compound interest</td>
-                                    <td>Available on request</td>
-
-                                </tr>
-                                <tr>
-                                    <td>Strava Activity Description Update</td>
-                                    <td>Uses the Strava API to auto-update my most recent descriptions with funny captions.</td>
-                                    <td>N/A</td>
+                                    <td>Strava Activity Description Updater</td>
+                                    <td>Uses the Strava API and PythonAnywhere to auto-update my most recent descriptions with funny captions.</td>
+                                    <td><a href="https://github.com/holland-cw3/Strava-Hot-Takes-v1.5">Link</a></td>
 
                                 </tr>
                                 <tr>
