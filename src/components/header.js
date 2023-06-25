@@ -8,14 +8,16 @@ function Header() {
     const [isActive, setIsActive] = useState(false);
 
     useEffect(() => {
-        const listItems = document.querySelectorAll('.tabs li');
+        const listItems = document.querySelectorAll('.header-right li');
         listItems.forEach((item) => {
             item.classList.remove('active');
         });
 
-        const activeListItem = document.querySelector(`.tabs li a[href*="${location.pathname}"]`);
-        if (activeListItem) {
-            activeListItem.parentElement.classList.add('active');
+        if (location.pathname !== '/') {
+            const activeListItem = document.querySelector(`.header-right li a[href*="${location.pathname}"]`);
+            if (activeListItem) {
+                activeListItem.parentElement.classList.add('active');
+            }
         }
     }, [location]);
 
