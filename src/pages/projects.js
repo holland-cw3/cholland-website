@@ -38,42 +38,36 @@ function Races() {
                             <tbody>
                                 <tr>
                                     <td>Personal Website</td>
-                                    <td>Website built with React.js</td>
+                                    <td>Website to showcase my skills and hobbies built with Javascript, HTML/CSS, and React</td>
                                     <td><a href="https://github.com/holland-cw3/cholland-website">Link</a></td>
 
                                 </tr>
                                 <tr>
                                     <td>UMD Club Running Website</td>
-                                    <td>Built with React, deployed via Vercel</td>
+                                    <td>Built with React, deployed via Vercel, aiming to convert to Bootstrap</td>
                                     <td><a href="https://clubrunningumd.vercel.app/">Link</a></td>
 
                                 </tr>
                            
                                 <tr>
                                     <td>Strava Activity Description Updater</td>
-                                    <td>Uses the Strava API and PythonAnywhere to auto-update my most recent descriptions with funny captions.</td>
+                                    <td>Uses the Strava API and PythonAnywhere to update my most recent descriptions with captions.</td>
                                     <td><a href="https://github.com/holland-cw3/Strava-Hot-Takes-v1.5">Link</a></td>
-
                                 </tr>
                                 <tr>
                                     <td>Network Based Video Game Controller</td>
                                     <td>Allows users to control their computer with their phone, built with Unity</td>
-                                    <td>N/A</td>
-
+                                    <td><a href="https://github.com/holland-cw3/Network-Based-Game-Controller">Link</a></td>
                                 </tr>
                                 <tr>
-                                    <td>Rubber Duck Game - In Progress</td>
-                                    <td></td>
-                                    <td></td>
-
-                                </tr>
-                                
+                                    <td>Asteroids Game</td>
+                                    <td>Asteroids game implemented in Java 8, using the JavaFX library to develop a GUI.</td>
+                                    <td><a href="https://github.com/holland-cw3/Asteroids_C_Holland">Link</a></td>
+                                </tr>      
                             </tbody>
                         </table>
                     </div>
-
                     <div class="divider"></div>
-
                 </div>
             </section>
         </div>

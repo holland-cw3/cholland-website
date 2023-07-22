@@ -7,6 +7,7 @@ import Home from './pages/home';
 import DigitalArt from './pages/digart';
 import Running from './pages/running';
 import Projects from './pages/projects';
+import Recipes from './pages/Recipes';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -20,6 +21,7 @@ function App() {
             <Routes>
                 <Route exact path='/' element={<Home />} />
 ]               <Route path='/digart' element={<DigitalArt />} />
+                <Route path='/recipes' element={<Recipes />} />
                 <Route path='/running' element={<Running />} />
                 <Route path='/projects' element={<Projects />} />
             </Routes>

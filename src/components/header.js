@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import '../CSS/Header.css';
-import resumePDF from '../images/Resume - Caleb Holland.pdf';
+import resumePDF from '../images/Resume - Caleb_Holland.pdf';
 
 function Header() {
     const location = useLocation();
@@ -39,18 +39,22 @@ function Header() {
                             </span>
                             <div className={`hamburger-content ${isActive ? 'active' : ''}`}>
                                 <ul>
-                                    <li><a href="/digart">Art</a></li>
                                     <li><a href={resumePDF}>Resume</a></li>
                                     <li><a href="/running">Running</a></li>
                                     <li><a href="/projects">Projects</a></li>
+                                    <li><a href="/digart">Art</a></li>
+                                    <li><a href="/recipes">Recipes</a></li>
+                                    
                                 </ul>
                             </div>
                         </li>
                         <div className="header-right">
+                            <li><a href="/Recipes">Recipes</a></li>
                             <li><a href="/digart">Art</a></li>
                             <li><a href={resumePDF}>Resume</a></li>
                             <li><a href="/running">Running</a></li>
                             <li><a href="/projects">Projects</a></li>
+
                         </div>
                     </ul>
                 </div>
