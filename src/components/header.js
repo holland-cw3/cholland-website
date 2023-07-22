@@ -50,7 +50,7 @@ function Header() {
                         </li>
                         <div className="header-right">
                             <li><a href="/Recipes">Recipes</a></li>
-                            <li><a href="/digart">Art</a></li>
+                            <li><a href="/digart">Artwork</a></li>
                             <li><a href={resumePDF}>Resume</a></li>
                             <li><a href="/running">Running</a></li>
                             <li><a href="/projects">Projects</a></li>
