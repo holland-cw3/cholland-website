@@ -1,6 +1,9 @@
 import React from 'react';
 import '../CSS/running.css';
 import calebImage from '../images/RegionalsPic.jpeg';
+import vietChick from '../images/Vietnamese Chicken Bowls - Google Docs.pdf'
+import blackenedChickPen from '../images/Blackened Chicken Penne - Google Docs - Hollandcw.pdf'
+
 
 function Recipes() {
     return (
@@ -12,20 +15,72 @@ function Recipes() {
             <section id="main" className="race-table-container records">
                 <div className="container">
 
+                    <p>
+                        I love to cook! Ever since I was a little kid, I loved to watch countless cooking shows, including MasterChef, Chopped, Beat Bobby Flay, etc.
+                        Through my "research" I've been inspired to enhance my own skills by expanding
+                        on recipes that I've found from all over the place!
+                    </p>
+
+                    <p> Below is a list of recipes that I've come to love. Enjoy!</p>
+
+                    <div className="divider"></div>
+
                     <h2 className="title">Recipes</h2>
                     <div id="post">
                         <table className="races">
                             <thead>
                                 <tr>
-                                    <th>Recipe</th>
-                                    <th>Link</th>
+                                    <th>Chicken</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href={vietChick}>Vietnamese Chicken Bowls</a></td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <td><a href={blackenedChickPen}>Blackened Chicken Penne</a></td>
+                                </tr>
+                            </tbody>
+                            <thead>
+                                <tr>
+                                    <th>Fish</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td></td>
+                                </tr>
+                            </tbody>
+                            <thead>
+                                <tr>
+                                    <th>Vegetarian</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
                                     <td></td>
-
+                                </tr>
+                            </tbody>
+                            <thead>
+                                <tr>
+                                    <th>Pork</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                            <thead>
+                                <tr>
+                                    <th>Beef</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td></td>
                                 </tr>
                             </tbody>
                         </table>
