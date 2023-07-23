@@ -4,6 +4,7 @@
     left: 0;
     width: 100%;
     background-color: #ffffff;
+    z-index: 1000;
 }
 
 .tabs ul {
