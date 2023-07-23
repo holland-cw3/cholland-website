@@ -1,6 +1,5 @@
 import React from 'react';
 import '../CSS/running.css';
-import calebImage from '../images/calebPic.JPG';
 
 
 function Races() {
@@ -10,13 +9,6 @@ function Races() {
 
 
             <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-
-
-
-            <div class="teamPic-container">
-                <img src={calebImage} alt="" className="teamPic" />
-
-            </div>
 
             <section id="main" className="race-table-container records">
 
@@ -37,7 +29,7 @@ function Races() {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Personal Website</td>
+                                    <td>Personal Website (psst you're On it right now!) </td>
                                     <td>Website to showcase my skills and hobbies built with Javascript, HTML/CSS, and React</td>
                                     <td><a href="https://github.com/holland-cw3/cholland-website">Link</a></td>
 

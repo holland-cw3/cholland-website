@@ -13,9 +13,13 @@ function Races() {
 
       <section id="main" className="race-table-container records">
         <div className="container">
-          <p>
+                  <p>
+          <br></br>
             Ever since I first ran a mile in 8th grade, I have come to fall in love with running. I eventually went on to become my high school's track and cross country captain and qualified for states in 2021. I love to run all distances, from the 1600m all the way up to the Marathon! My most notable race would be the Frederick Half Marathon, in which I ran 1:27:46 to place 2nd in the 19 under age group.
-          </p>
+                      <br></br>
+                      <br></br>
+
+                  </p>
 
           <div className="divider"></div>
 

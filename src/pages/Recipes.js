@@ -3,7 +3,8 @@ import '../CSS/running.css';
 import calebImage from '../images/RegionalsPic.jpeg';
 import vietChick from '../images/Vietnamese Chicken Bowls - Google Docs.pdf'
 import blackenedChickPen from '../images/Blackened Chicken Penne - Google Docs - Hollandcw.pdf'
-
+import garlicCaperChick from '../images/Garlic-Caper Chicken - Google Docs.pdf'
+import salmSushiRice from '../images/Salmon Sushi Rice Bowl.pdf'
 
 function Recipes() {
     return (
@@ -16,12 +17,16 @@ function Recipes() {
                 <div className="container">
 
                     <p>
+                        <br></br>
                         I love to cook! Ever since I was a little kid, I loved to watch countless cooking shows, including MasterChef, Chopped, Beat Bobby Flay, etc.
                         Through my "research" I've been inspired to enhance my own skills by expanding
                         on recipes that I've found from all over the place!
-                    </p>
+                        <br></br> <br></br>
+                        Below is a list of recipes that I've come to love. Enjoy!
+                        <br></br>
+                        <br></br>
 
-                    <p> Below is a list of recipes that I've come to love. Enjoy!</p>
+                    </p>
 
                     <div className="divider"></div>
 
@@ -33,26 +38,18 @@ function Recipes() {
                                     <th>Chicken</th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                <tr>
-                                    <td><a href={vietChick}>Vietnamese Chicken Bowls</a></td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                    <td><a href={blackenedChickPen}>Blackened Chicken Penne</a></td>
-                                </tr>
-                            </tbody>
+                            <tbody><tr><td><a href={vietChick}>Vietnamese Chicken Bowls</a></td></tr></tbody>
+                            <tbody><tr><td><a href={blackenedChickPen}>Blackened Chicken Penne</a></td></tr></tbody>
+                            <tbody><tr><td><a href={garlicCaperChick}>Garlic Caper Chicken</a></td></tr></tbody>
+
+
                             <thead>
                                 <tr>
                                     <th>Fish</th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                <tr>
-                                    <td></td>
-                                </tr>
-                            </tbody>
+                            <tbody><tr><td><a href={salmSushiRice}>Salmon Sushi Rice Bowl</a></td></tr></tbody>
+
                             <thead>
                                 <tr>
                                     <th>Vegetarian</th>

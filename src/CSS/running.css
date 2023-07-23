@@ -2,23 +2,35 @@
 body {
     min-width: 100%;
     max-width: 100%;
+    
+    background-image: linear-gradient(to top right, #33cccc 0%, #333399 84%); /* Set your gradient colors here */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Ensures the background remains fixed when scrolling */
+    margin-top: 5vh;
+    margin-bottom: 20vh;
+}
+
+.container p  {
+    color: #00ffff;
 }
 
 /* Races page container */
 .page-container.races-page {
-    max-width: 1200px;
+    max-width: 75%;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
+
 }
 
 
 .teamPic-container {
+    margin-top: 5vh;
     position: relative;
     width: 100vw;
     left: 50%;
     transform: translateX(-50%);
-    background-color: black;
     z-index: -1;
 }
 
@@ -27,14 +39,15 @@ body {
     border-radius: 30px;
     display: block;
     margin: 0 auto;
+
 }
 
 /* Wrapper */
 .race-table-container {
     margin-top: 40px;
     padding: 20px;
-    background-color: #f1f1f1;
     border-radius: 30px;
+
 }
 
 .records {
@@ -46,6 +59,11 @@ body {
     max-width: 100%;
 }
 
+    .container p {
+        border-top: 1px solid rgba(255,255,255,0.5);
+        border-bottom: 1px solid rgba(255,255,255,0.5);
+    }
+
 /* Table */
 table.races {
     width: 100%;
@@ -53,19 +71,8 @@ table.races {
     margin-top: 20px;
 }
 
-table tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
-table tr:nth-child(odd) {
-    background-color: #fff;
-}
-
-
-
-
     table.races th {
-        background-color: #230b79;
+        background-color: #201f1f;
         color: #fff;
         padding: 10px;
         text-align: center;
@@ -74,11 +81,13 @@ table tr:nth-child(odd) {
     table.races td {
         padding: 10px;
         border-bottom: 1px solid #ccc;
+        border-left: 1px solid rgba(255,255,255,.5);
+        border-right: 1px solid rgba(255,255,255,.5);
     }
 
         table.races td a {
-            color: blue;
-            text-decoration: none;
+            color: white;
+            text-decoration: underline;
         }
 
             table.races td a:hover {
@@ -110,14 +119,14 @@ p {
 /* Styles for small mobile devices (up to 479px) */
 @media only screen and (max-width: 1000px) {
     body {
-        margin-top: 30px;
-        font-size: 18px;
-        margin-bottom:100px;
+        font-size: 19px;
+        margin-bottom: 100px;
+        align-items: center;
     }
 
     .teamPic {
-        width: 90%;
-        
+        width: 100%;
+        border-radius:0;
     }
 
     .race-table-container {
@@ -127,7 +136,13 @@ p {
         padding: 20px;
         background-color: transparent;
         width: 100%;
+
     }
+
+    table.races{
+        margin-left: -10px;
+    }
+   
     
     
 }

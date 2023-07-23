@@ -1,7 +1,6 @@
 body {
-    background: #d7d3d3;
+    background: linear-gradient(to top right, #33cccc 0%, #333399 84%);
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 .Home-container {
@@ -14,15 +13,20 @@ body {
 .contact {
     list-style: none;
     margin-left: -50px;
+    color: #00ffff;
+}
+
+.contact a {
+        color: #00ffff;
 }
 
 .about-me {
-    background-color: #ffffff;
+    background-color: none;
     border-radius: 30px;
     padding: 16px;
     width: 100%;
     margin-bottom: 50px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.8);
     display: flex;
 }
 
@@ -35,8 +39,8 @@ body {
 
 .image {
     flex: 0 0 auto;
-    width: 50%;
-    height: 100%;
+    width: 60%;
+    height: 10%;
     overflow: hidden;
 }
 
@@ -55,13 +59,19 @@ body {
     align-items: center;
     text-align: center;
     line-height: 2;
-    margin-left: 50px;
+    margin-left: 20px;
+    color: #00ffff;
 }
+
+    .content p {
+        color: #00ffff;
+        border-top: 1px solid white;
+    }
 
 h2 {
     margin-top: 0;
-    margin-bottom: 10px;
-    font-size: 30px;
+    margin-bottom: -5px;
+    font-size: 40px;
 }
 
 .h2-title {
