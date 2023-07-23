@@ -1,10 +1,12 @@
 import React from 'react';
 import '../CSS/running.css';
 import calebImage from '../images/RegionalsPic.jpeg';
-import vietChick from '../images/Vietnamese Chicken Bowls - Google Docs.pdf'
-import blackenedChickPen from '../images/Blackened Chicken Penne - Google Docs - Hollandcw.pdf'
-import garlicCaperChick from '../images/Garlic-Caper Chicken - Google Docs.pdf'
-import salmSushiRice from '../images/Salmon Sushi Rice Bowl.pdf'
+import vietChick from '../images/Vietnamese Chicken Bowls - Google Docs.pdf';
+import blackenedChickPen from '../images/Blackened Chicken Penne - Google Docs - Hollandcw.pdf';
+import garlicCaperChick from '../images/Garlic-Caper Chicken - Google Docs.pdf';
+import salmSushiRice from '../images/Salmon Sushi Rice Bowl.pdf';
+import genTso from '../images/General Tso\'s Cauliflower.pdf'
+
 
 function Recipes() {
     return (
@@ -55,6 +57,8 @@ function Recipes() {
                                     <th>Vegetarian</th>
                                 </tr>
                             </thead>
+                            <tbody><tr><td><a href={genTso}>General Tso's Cauliflower</a></td></tr></tbody>
+
                             <tbody>
                                 <tr>
                                     <td></td>
