@@ -14,9 +14,6 @@ import p9 from '../images/2021-11-03.jpg';
 import p10 from '../images/2021-11-03.png';
 
 
-
-
-
 const images = [
     {
         original: p1,
@@ -74,7 +71,7 @@ function digart() {
                     Digital art and occassional photography is a long time
                     passion of mine. I am completely self taught, and am well
                     versed in technologies such as Photoshop and Blender. 
-                    I hope to one day combine my knack for design with my studies. Above is some of the work I've done, including photos I've taken, and 3d renders.
+                    I hope to one day combine my knack for design with my studies. Above is some of the work I've done, including photos I've taken, and 3d renders
 
                     More recently I was named the UMD CS 50th-Anniversary Graphics 
                     and Tagline Design Competition Winner, and will have my logo
