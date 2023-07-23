@@ -58,12 +58,6 @@ function Recipes() {
                                 </tr>
                             </thead>
                             <tbody><tr><td><a href={genTso}>General Tso's Cauliflower</a></td></tr></tbody>
-
-                            <tbody>
-                                <tr>
-                                    <td></td>
-                                </tr>
-                            </tbody>
                             <thead>
                                 <tr>
                                     <th>Pork</th>
