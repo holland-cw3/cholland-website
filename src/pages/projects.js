@@ -26,13 +26,13 @@ function Races() {
                             <tbody>
                                 <tr>
                                     <td>Personal Website (psst you're on it right now!) </td>
-                                    <td>Website to showcase my skills and hobbies built with Javascript, HTML/CSS, and React</td>
+                                    <td>Website to showcase my skills and hobbies built with Javascript, HTML/CSS, and React.</td>
                                     <td><a href="https://github.com/holland-cw3/cholland-website">Link</a></td>
 
                                 </tr>
                                 <tr>
                                     <td>UMD Club Running Website</td>
-                                    <td>Built with React, deployed via Vercel, aiming to convert to Bootstrap</td>
+                                    <td>Built with React, deployed via Vercel, aiming to convert to Bootstrap.</td>
                                     <td><a href="https://clubrunningumd.vercel.app/">Link</a></td>
 
                                 </tr>
@@ -44,7 +44,7 @@ function Races() {
                                 </tr>
                                 <tr>
                                     <td>Network Based Video Game Controller</td>
-                                    <td>Allows users to control their computer with their phone, built with Unity</td>
+                                    <td>Allows users to control their computer with their phone, built with Unity.</td>
                                     <td><a href="https://github.com/holland-cw3/Network-Based-Game-Controller">Link</a></td>
                                 </tr>
                                 <tr>
