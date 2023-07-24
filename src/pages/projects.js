@@ -11,11 +11,7 @@ function Races() {
             <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 
             <section id="main" className="race-table-container records">
-
-
                 <div className="container">
-                    
-
 
                     <h2 className="title">Projects</h2>
                     <div id="post">
@@ -29,7 +25,7 @@ function Races() {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Personal Website (psst you're On it right now!) </td>
+                                    <td>Personal Website (psst you're on it right now!) </td>
                                     <td>Website to showcase my skills and hobbies built with Javascript, HTML/CSS, and React</td>
                                     <td><a href="https://github.com/holland-cw3/cholland-website">Link</a></td>
 
