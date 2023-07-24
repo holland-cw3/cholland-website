@@ -83,6 +83,7 @@ table.races {
         border-bottom: 1px solid #ccc;
         border-left: 1px solid rgba(255,255,255,.5);
         border-right: 1px solid rgba(255,255,255,.5);
+        background: rgba(0,0,0,0.1);
     }
 
         table.races td a {
