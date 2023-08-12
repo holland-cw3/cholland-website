@@ -7,13 +7,8 @@ function Home() {
 
 
 	return (
-		
-
         <div className="Home-container home-page">
-
 			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
-
-
 			<article class="about-me">
 				<span class="image">
 					<img src={calebImage} alt="" className="about-us-image" />

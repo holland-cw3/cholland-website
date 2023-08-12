@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import '../CSS/footer.css';
 import { FaLinkedin, FaStrava } from 'react-icons/fa';
 import githubIco from '../images/github-mark-white.png';
 
 function Footer() {
     return (
-        <div>
+        <Fragment>
             <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes"/>
 
             <footer id="footer">
@@ -23,7 +23,7 @@ function Footer() {
 
                 </div>
             </footer>
-        </div>
+        </Fragment>
     );
 }
 

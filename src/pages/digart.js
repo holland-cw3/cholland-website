@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import 'react-image-gallery/styles/css/image-gallery.css';
 import '../CSS/digart.css'
 import ImageGallery from 'react-image-gallery';
@@ -15,54 +15,23 @@ import p10 from '../images/2021-11-03.png';
 
 
 const images = [
-    {
-        original: p1,
-        thumbnail: p1,
-    },
-    {
-        original: p2,
-        thumbnail: p2,
-    },
-    {
-        original: p3,
-        thumbnail: p3,
-    },
-    {
-        original: p4,
-        thumbnail: p4,
-    },
-    {
-        original: p5,
-        thumbnail: p5,
-    },
-    {
-        original: p6,
-        thumbnail: p6,
-    },
-    {
-        original: p7,
-        thumbnail: p7,
-    },
-    {
-        original: p8,
-        thumbnail: p8,
-    },
-    {
-        original: p9,
-        thumbnail: p9,
-    },
-    {
-        original: p10,
-        thumbnail: p10,
-    },
-
+    { original: p1, thumbnail: p1 },
+    { original: p2, thumbnail: p2 },
+    { original: p3, thumbnail: p3 },
+    { original: p4, thumbnail: p4 },
+    { original: p5, thumbnail: p5},
+    { original: p6, thumbnail: p6 },
+    { original: p7, thumbnail: p7 },
+    { original: p8, thumbnail: p8 },
+    { original: p9, thumbnail: p9 },
+    { original: p10, thumbnail: p10 },
 ];
 
 
 function digart() {
 
     return (
-        <div className="digitalArt">
+        <Fragment>
             <main>
                 <ImageGallery items={images} />
 
@@ -77,10 +46,9 @@ function digart() {
                     More recently I was named the UMD CS 50th-Anniversary Graphics 
                     and Tagline Design Competition Winner, and will have my logo
                     featured this fall.
-                </p>
-                
+                </p> 
             </main>
-        </div>
+        </Fragment>
     );
 }
 

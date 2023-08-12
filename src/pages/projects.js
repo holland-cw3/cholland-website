@@ -2,7 +2,7 @@ import React from 'react';
 import '../CSS/running.css';
 
 
-function Races() {
+function Projects() {
     return (
         <div className="page-container races-page">
 
@@ -62,4 +62,4 @@ function Races() {
     );
 }
 
-export default Races;
+export default Projects;

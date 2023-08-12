@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, Fragment } from 'react';
 import { useLocation } from 'react-router-dom';
 import '../CSS/Header.css';
 import resumePDF from '../images/Resume - Caleb_Holland.pdf';
@@ -26,7 +26,7 @@ function Header() {
     };
 
     return (
-        <div>
+        <Fragment>
             <header className="App-header">
                 <div className={`tabs ${isActive ? 'active' : ''}`}>
                     <ul>
@@ -63,7 +63,7 @@ function Header() {
             <nav id="nav">
                 <ul className="links" id="myMenus"></ul>
             </nav>
-        </div>
+        </Fragment>
     );
 }
 
