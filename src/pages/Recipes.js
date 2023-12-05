@@ -1,9 +1,6 @@
 import React from 'react';
 import '../CSS/running.css';
 import calebImage from '../images/RegionalsPic.jpeg';
-import vietChick from '../images/Vietnamese Chicken Bowls - Google Docs.pdf';
-import blackenedChickPen from '../images/Blackened Chicken Penne - Google Docs - Hollandcw.pdf';
-import garlicCaperChick from '../images/Garlic-Caper Chicken - Google Docs.pdf';
 import salmSushiRice from '../images/Salmon Sushi Rice Bowl.pdf';
 import genTso from '../images/General Tso\'s Cauliflower.pdf'
 
@@ -40,9 +37,7 @@ function Recipes() {
                                     <th>Chicken</th>
                                 </tr>
                             </thead>
-                            <tbody><tr><td><a href={vietChick}>Vietnamese Chicken Bowls</a></td></tr></tbody>
-                            <tbody><tr><td><a href={blackenedChickPen}>Blackened Chicken Penne</a></td></tr></tbody>
-                            <tbody><tr><td><a href={garlicCaperChick}>Garlic Caper Chicken</a></td></tr></tbody>
+                            
 
 
                             <thead>
