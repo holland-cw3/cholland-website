@@ -1,35 +1,26 @@
 import React from 'react';
 import './App.css';
 import Header from './components/header';
-import Footer from './components/footer';
+import Home from './components/Home';
 import Nav from './components/Nav';
+import About from './components/About';
+import Services from './components/Services';
+import Work from './components/Work';
+import Contact from './components/Contact';
 
-import Home from './pages/home';
-import DigitalArt from './pages/digart';
-import Running from './pages/running';
-import Projects from './pages/projects';
-import Recipes from './pages/Recipes';
-
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
     return (
         <div className="App">
             <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-
-        <Router>
             <Header />
+            <Home />
             <Nav />
-            <Routes>
-                <Route exact path='/' element={<Home />} />
-]               <Route path='/digart' element={<DigitalArt />} />
-                <Route path='/recipes' element={<Recipes />} />
-                <Route path='/running' element={<Running />} />
-                <Route path='/projects' element={<Projects />} />
-                <Route path='/recipes' element={<Recipes />} />
-            </Routes>
-            <Footer />
-        </Router>
+            <About />
+            <Services />
+            <Work />
+            <Contact />
+            <div className='h-[4000px]'></div>
         </div>
     );
 }
