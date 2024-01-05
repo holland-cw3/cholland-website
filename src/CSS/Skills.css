@@ -1,0 +1,40 @@
+.skillsbg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border-radius: 20px;
+    background: rgba(0,0,0,0.5);
+    box-shadow: 15px 15px rgba(0,0,0,0.2);
+    border-color: rgba(255,255,255,.2);
+    border-width: 1px;
+
+} 
+
+.icon{
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+
+.two-column-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 7vw;
+    grid-row-gap: 2vh;
+  
+  }
+
+  @media (max-width: 600px) {
+    .two-column-list {
+      grid-template-columns: 1fr; /* Switch to a single column for mobile */
+      font-size: 15px;
+    }
+
+    .coursetitle{
+        font-size: 30px;
+    }
+  }

@@ -4,7 +4,7 @@ import Header from './components/header';
 import Home from './components/Home';
 import Nav from './components/Nav';
 import About from './components/About';
-import Services from './components/Services';
+import Skills from './components/Skills';
 import Work from './components/Work';
 import Contact from './components/Contact';
 
@@ -17,7 +17,7 @@ function App() {
             <Home />
             <Nav />
             <About />
-            <Services />
+            <Skills />
             <Work />
             <Contact />
             <div className='h-[4000px]'></div>
