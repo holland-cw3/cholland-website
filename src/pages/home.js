@@ -15,7 +15,7 @@ function Home() {
 				</span>
 				<div class="content">
 					<h2>Caleb Holland</h2>
-					<p><br></br>Hi! Welcome to my website! I hope for this page to serve as a personal portfolio showcasing my skills and hobbies. Please see below for my contact information in case you want to connect!</p>
+					<p><br></br>Hello! Welcome to my website! I hope for this page to serve as a personal portfolio showcasing my skills and hobbies. Please see below for my contact information in case you want to connect!</p>
 
 					<p>
 						<ul className="contact">
