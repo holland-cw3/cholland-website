@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './components/header';
 import Footer from './components/footer';
+import Nav from './components/Nav';
 
 import Home from './pages/home';
 import DigitalArt from './pages/digart';
@@ -18,6 +19,7 @@ function App() {
 
         <Router>
             <Header />
+            <Nav />
             <Routes>
                 <Route exact path='/' element={<Home />} />
 ]               <Route path='/digart' element={<DigitalArt />} />
