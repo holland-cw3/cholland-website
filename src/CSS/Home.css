@@ -70,4 +70,8 @@
         margin-bottom: 3vh;
         order: -1;
     }   
+
+    .bio{
+        text-align: center;
+    }
   }
