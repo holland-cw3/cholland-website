@@ -20,7 +20,7 @@ function App() {
             <Skills />
             <Work />
             <Contact />
-            <div className='h-[2400px]'></div>
+            <div className='h-[100px]'></div>
         </div>
     );
 }

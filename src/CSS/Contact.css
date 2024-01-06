@@ -1,0 +1,77 @@
+.contactme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border-radius: 20px;
+
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    border-radius: 5px;
+    width: 50vw;
+    background: rgba(0,0,0,0.5);
+    box-shadow: 15px 15px rgba(0,0,0,0.2);
+    border-width: 2px;
+    border-color: rgba(255,255,255,.2);
+    outline: none; 
+
+}
+
+input:focus{
+    border-color: blue;
+
+}
+
+textarea{
+    border-radius: 5px;
+    width: 50vw;
+    background: rgba(0,0,0,0.5);
+    box-shadow: 15px 15px rgba(0,0,0,0.2);
+    border-width: 2px;
+    border-color: rgba(255,255,255,.2);
+    outline: none; 
+}
+
+textarea:focus{
+    border-color: blue;
+
+}
+
+.submitbtn{
+    background: linear-gradient(to bottom right, #6600ff 0%, #ff0066 100%);
+    border-radius:10px;
+    border-width: 1px;
+    border-color: rgba(255,255,255,0.2);
+    padding: 5px;
+    font-size: 20px;
+    width: 30vw;
+}
+
+.submitbtn:hover{
+    background: linear-gradient(to bottom right, #ff0066 0%, #6600ff 100%);
+    border-radius:10px;
+    border-width: 3px;
+    border-color: rgba(255,255,255,0.8);
+    padding: 5px;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+
+    input, textarea{
+        width: 90vw;
+    }
+
+  
+  } 
