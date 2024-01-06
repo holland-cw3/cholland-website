@@ -1,0 +1,51 @@
+.experience{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+   
+}
+
+.card{
+    width: 90%;
+    background: rgba(0,0,0,0.4);
+    border-width: 2px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    margin-top: 3vh;
+    box-shadow: 15px 15px rgba(0,0,0,0.2);
+    border-color: rgba(255,255,255,.2);
+    border-width: 1px;    
+}
+
+.worktitle{
+    display: flex;
+    align-items: left;
+    flex-direction: row;
+    margin-left: 1.5vw;
+    margin-top: 2vh;
+}
+
+.justify-right{
+    margin-left: auto;
+}
+
+@media (max-width: 600px) {
+    .worktitle{
+        flex-direction: column;
+    }
+    .justify-right{
+        margin-left: 0;
+    }
+    .comp{
+        margin-left: 1vw;
+    }
+
+
+   
+  }
+
