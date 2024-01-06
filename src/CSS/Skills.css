@@ -14,9 +14,19 @@
 
 } 
 
-.icon{
-    border-radius: 5px;
+.ico{
+    border-radius: 20px;
+    border-width: 1px;
+    background: linear-gradient(to bottom right, rgba(0,0,0,0.2) 0%, rgba(255,255,255,.1) 100%);
+    border-color: rgba(255,255,255,.2);
+}
+
+.ico:hover{
+    border-radius: 20px;
     border-width: 2px;
+    background: linear-gradient(to bottom right, rgba(255,255,255,.1) 0%, rgba(0,0,0,0.2) 100%);
+    border-color: rgba(255,255,255,.2);
+
 }
 
 
