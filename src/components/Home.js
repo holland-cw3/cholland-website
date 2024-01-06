@@ -2,6 +2,9 @@ import React from 'react';
 import '../CSS/Home.css';
 
 import personalImg from '../images/take2 - Copy.png';
+import resume from '../images/Resume - Caleb Holland.pdf';
+import { Link } from 'react-scroll';
+
 
 import {FaGithub, FaLinkedin, FaStrava} from 'react-icons/fa'
 
@@ -10,7 +13,6 @@ const Home = () => {
   return (
       <div className='section' id='home'>
         <div className='About-page'>
-          <img className="image" src={personalImg} alt="caleb holland" width="400px"/>
           <div className='About-page-text'>
             <h1 className="text-5xl font-bold">Caleb Holland</h1>
             <div className="text-gradient2 lg:text-3xl sm:text-sm">
@@ -22,8 +24,19 @@ const Home = () => {
               ]}
               speed={50} repeat={Infinity}/>
             </div>
-            <a href="https://github.com/holland-cw3" className="icon"><FaGithub/></a>
+            <p><br></br>Hi! My name is Caleb Holland, a second year computer science student at the University of Maryland - College Park.<br></br> I have an interest in web development, software engineering, and cybersecurity. <br></br> I'm currently an incoming
+             intern at PNC bank as part of their technology internship program! <br></br>I'm looking forward to further exploring my interests and expanding my skillset.</p>
+            <div className="buttons mt-10 mb-10">
+              <button className="butn mr-10"><Link to="contact" activeClass="active2" smooth="true" spy="true">Contact</Link></button>
+              <button className="butn"><a href={resume}>Resume</a></button>
+            </div>
+            <div className="icon-links">
+              <a href="https://github.com/holland-cw3"><FaGithub/></a>
+              <a href="https://www.linkedin.com/in/caleb-holland-0a1168211/" class ='ml-6'> <FaLinkedin/></a>
+              <a href="https://www.strava.com/athletes/69624144" class="ml-6"><FaStrava/></a>
+            </div>
           </div>
+          <img className="image" src={personalImg} alt="caleb holland" width="400px"/>
         </div>
       </div>
     );
