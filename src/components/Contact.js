@@ -11,7 +11,7 @@ const Contact = () => {
             <div className="text-gradient2 md:text-4xl sm:text-xl mb-10 mt-5">
               <TypeAnimation sequence={[
                 'Let\'s get in touch!',2000,
-                '',2000,
+                '',500,
               ]}
               speed={20} repeat={Infinity}/>
             </div>
