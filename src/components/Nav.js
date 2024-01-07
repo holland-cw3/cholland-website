@@ -1,7 +1,7 @@
 import React from 'react';
 import 'tailwindcss/tailwind.css'; // Import Tailwind CSS styles
 
-import { BiHomeAlt, BiUser } from 'react-icons/bi';
+import { BiHomeAlt, BiBulb } from 'react-icons/bi';
 import { BsClipboardData, BsBriefcase, BsChatSquare } from 'react-icons/bs';
 
 
@@ -17,7 +17,7 @@ const Nav = () => {
                         <BiHomeAlt />
                     </Link>
                     <Link to="about" activeClass="active2" smooth="true" spy="true" className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center">
-                        <BiUser />
+                        <BiBulb />
                     </Link>
                     <Link to="skills" activeClass="active2" smooth="true" spy="true" className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center">
                         <BsClipboardData />
