@@ -21,7 +21,7 @@ const About = () => {
             <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
             <img className="group-hover:scale-125 transition-all duration-500" src={p4} alt="p1"/>
             <div className='absolute -bottom-full left-12 group-hover:top-5 transition-all duration-500 z-50'>
-              <span className="text-3xl text-gradient2"><a href="https://umdclubrunning.com/">UMD Club Running Website</a></span>
+              <span className="text-3xl text-gradient2"><a href="https://github.com/UMDWebmaster/clubrunningumd/">UMD Club Running Website</a></span>
             </div>
             {/* <div className='absolute -bottom-full left-12 group-hover:top-14 transition-all duration-700 z-50'>
               <span className="italics text-white ">Object Oriented Programming & Graphics</span>
