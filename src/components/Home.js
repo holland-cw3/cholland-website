@@ -36,6 +36,7 @@ const Home = () => {
               <a href="https://www.strava.com/athletes/69624144" class="ml-6"><FaStrava/></a>
             </div>
           </div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=Y-eYRSVjhBzI4piz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           <img className="image" src={personalImg} alt="caleb holland" width="400px"/>
         </div>
       </div>
