@@ -12,6 +12,8 @@ import {TypeAnimation} from 'react-type-animation';
 const Home = () => {
   return (
       <div className='section' id='home'>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=Y-eYRSVjhBzI4piz&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
         <div className='About-page'>
           <div className='About-page-text'>
             <h1 className="text-5xl font-bold bio">Caleb Holland</h1>
@@ -36,7 +38,6 @@ const Home = () => {
               <a href="https://www.strava.com/athletes/69624144" class="ml-6"><FaStrava/></a>
             </div>
           </div>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=Y-eYRSVjhBzI4piz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           <img className="image" src={personalImg} alt="caleb holland" width="400px"/>
         </div>
       </div>
