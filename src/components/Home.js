@@ -14,7 +14,7 @@ const Home = () => {
       <div className='section' id='home'>
         <div className='About-page'>
           <div className='About-page-text'>
-            <h1 className="text-5xl font-bold bio">Caleb Holland</h1>
+            <h1 className="text-5xl font-bold bio">Caleb W Holland</h1>
             <div className="text-gradient2 lg:text-3xl sm:text-sm bio">
               <TypeAnimation sequence={[
                 'Computer Science Student',2000,
