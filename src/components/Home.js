@@ -17,27 +17,9 @@ const Home = () => {
             <h1 className="text-5xl font-bold bio">Caleb W Holland</h1>
             <div className="text-gradient2 lg:text-3xl sm:text-sm bio">
               <TypeAnimation sequence={[
-                'Computer Science Student|',2000,
-                'Computer Science Student',1000,
-                'Computer Science Student|',2000,
-                'Computer Science Student',1000,
-                '|',2000,
-                '',2000,
-                '|',2000,
+                'Computer Science Student',2000,
                 'Incoming Technology Intern',2000,
-                'Incoming Technology Intern|',1000,
-                'Incoming Technology Intern',2000,
-                'Incoming Technology Intern|',1000,
-                '|',2000,
-                '',2000,
-                '|',2000,
-                'Aspiring Web Developer| ',2000,
-                'Aspiring Web Developer',1000,
-                'Aspiring Web Developer| ',2000,
-                'Aspiring Web Developer ',1000,
-                '|',2000,
-                '',2000,
-                '|',2000,
+                'Aspiring Web Developer',2000,
                 'Aspiring Software Engineer',2000
               ]}
               speed={50} repeat={Infinity}/>
