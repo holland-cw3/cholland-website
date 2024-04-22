@@ -36,8 +36,8 @@ const About = () => {
               <span className="text-3xl text-gradient2"><a href="https://github.com/holland-cw3/cd_rates_webscraper">CD Rates Webscraper - IP</a></span>
             </div>
             {/* <div className='absolute -bottom-full left-12  group-hover:top-14 transition-all duration-700 z-50'>
-              <span className="italics text-white ">IP - CD Rates Webscraper</span> */}
-            </div>
+              <span className="italics text-white ">IP - CD Rates Webscraper</span>
+            </div>  */}
           </div>
         </div>
         <div className='flex-1 flex flex-col gap-y-10'>
