@@ -18,13 +18,13 @@ const Home = () => {
             <div className="text-gradient2 lg:text-3xl sm:text-sm bio">
               <TypeAnimation sequence={[
                 'Computer Science Student',2000,
-                'Incoming Technology Intern',2000,
+                'Software Engineer Intern at PNC',2000,
                 'Aspiring Web Developer',2000,
                 'Aspiring Software Engineer',2000
               ]}
               speed={50} repeat={Infinity}/>
             </div>
-            <p className="bio"><br></br>Hi! My name is Caleb Holland, a second year computer science student at the University of Maryland - College Park.<br></br> I have an interest in web development, software engineering, and cybersecurity. <br></br> I'm currently an incoming
+            <p className="bio"><br></br>Hi! My name is Caleb Holland, a rising third year computer science student at the University of Maryland - College Park.<br></br> I have an interest in web development, software engineering, and cybersecurity. <br></br> I'm currently an incoming
              intern at PNC bank as part of their technology internship program! <br></br>I'm looking forward to further exploring my interests and expanding my skillset.</p>
             <div className="buttons mt-10 mb-10">
               <button className="butn mr-10"><Link to="contact" activeClass="active2" smooth="true" spy="true">Contact</Link></button>
