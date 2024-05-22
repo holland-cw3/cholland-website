@@ -64,7 +64,7 @@ const Skills = () => {
         </ul>
         <h1 className="text-5xl font-bold text-gradient2 mb-5 mt-4 coursetitle">Coursework</h1>
         <ul className="list-disc two-column-list mb-5">
-          <li>CMSC330 - Organization of Programming Languages</li>
+          <li>CMSC330 - Programming Languages</li>
           <li>CMSC351 - Algorithms</li>
           <li>CMSC216 - Intro to Computer Systems</li>
           <li>CMSC250 - Discrete Structures</li>
