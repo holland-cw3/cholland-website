@@ -45,15 +45,15 @@ const Skills = () => {
             <p>LaTeX</p>
           </li>
           <li className=" p-6 text-center ico">
-            <i className="devicon-unity-original text-5xl mx-auto mb-2"></i>
-            <p>Unity</p>
+            <i className="devicon-ocaml-original text-5xl mx-auto mb-2"></i>
+            <p>OCaml</p>
           </li>
           <li className=" p-6 text-center ico">
             <i className="devicon-express-original text-5xl mx-auto mb-2"></i>
             <p>Express</p>
           </li>
           <li className=" p-6 text-center ico">
-            <i className="devicon-nodejs-plain text-5xl mx-auto mb-2"></i>
+            <i className="devicon-nodejs-original text-5xl mx-auto mb-2"></i>
             <p>Node</p>
           </li>
           <li className=" p-6 text-center ico">
